@@ -1,0 +1,81 @@
+body {
+    font-family: 'Nunito';
+    background: linear-gradient(135deg, #000000, #3C1A83);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    color: white;
+}
+.principal {
+    background-color: #1a1a1a;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+h1{
+    font-family: 'Pirata One';
+    font-size: 80px;
+    margin-bottom: 20px;
+        
+}
+#actualizar{
+    background-color: #AA447A;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+#actualizar:hover {
+    background-color: #C07758;
+    transform: scale(1.05);
+}
+.noticias{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.noticia {
+    background-color: #AA447A;
+    padding: 20px;
+    border-radius: 18px;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.noticia:hover {
+    transform: translateY(-5px);
+}
+.noticia img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.noticia h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.noticia h2 a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.noticia h2 a:hover {
+    color: #C07758;
+}
+ .noticia p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #dddddd;
+}
+#cargando {
+    color: #C07758;
+    font-style: italic;
+}
